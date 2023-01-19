@@ -93,3 +93,23 @@ footer {
 footer a {
   text-decoration: none;
 }
+
+.panel-commands {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88%;
+}
+
+.talking .panel-microphone {
+  visibility: hidden;
+}
+
+.talking .panel-commands {
+  visibility: visible;
+}
+
+.panels {
+  position: relative;
+}
