@@ -85,6 +85,18 @@ button {
   background-size: contain;
 }
 
+.codigotchi-screen_dance {
+  background-image: url("/img/codigotchi-actions/dance.gif");
+}
+
+.codigotchi-screen_eat {
+  background-image: url("/img/codigotchi-actions/eat.gif");
+}
+
+.codigotchi-screen_sleep {
+  background-image: url("/img/codigotchi-actions/sleep.gif");
+}
+
 footer {
   text-align: center;
   opacity: 0.7;
@@ -112,4 +124,9 @@ footer a {
 
 .panels {
   position: relative;
+}
+
+#transcript {
+  color: white;
+  font-weight: bold;
 }

@@ -25,18 +25,18 @@
       <main>
         <section class="codigotchi">
           <img src="/img/codigotchi.png" alt="Codigotchi image" />
-          <div class="codigotchi-screen"></div>
+          <div id="screen" class="codigotchi-screen"></div>
         </section>
-        <section class="panels">
+        <section id="panels-data" class="panels">
           <div class="panel panel-microphone">
-            <button>
+            <button id="microphone">
               <img src="/img/mic.png" alt="Microphone image" />
             </button>
             <h2>Activate Microphone</h2>
           </div>
           <div class="panel panel-commands">
             <h2>Speak a command!</h2>
-            <h3>Supported Command</h3>
+            <h3>Supported Commands</h3>
             <div class="commands">
               <ul>
                 <li>Eat</li>
@@ -46,6 +46,7 @@
             </div>
           </div>
         </section>
+        <p id="transcript"></p>
       </main>
       <footer>
         This page was
